@@ -1,0 +1,56 @@
+.footer {
+    display: grid;
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
+    color: #fff;
+    justify-content: center;
+}
+
+.contactUs {
+    display: flex;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+    height: 50%;
+    width: 100%;
+}
+
+.fas {
+    margin: 5px 15px 5px 15px;
+    height: 30px;
+    color: #fff;
+}
+
+.footerLinks {
+    display: flex;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+    text-align: center;
+    height: 25%;
+    width: 100%;
+}
+
+.Footerlinks {
+    color: #fff;
+    margin: 0px 10px 0px 10px;
+}
+
+.Madeby {
+    background-color: #000000;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    align-self: center;
+    justify-content: right;
+    height: 30px;
+    width: 100%;
+    font-size: 10px;
+}
+
+.fa1 {
+    margin: 5px 3px 5px 3px;
+    height: 15px;
+
+}

@@ -1,0 +1,400 @@
+.AboutContainer {
+    background-color: #ECD8CF;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.AboutSpecial {
+
+    position: relative;
+    width: 100%;
+    justify-content: center;
+}
+
+.AboutCard {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 0px 0px 40px 0px;
+}
+
+.AboutText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    margin-top: 55px;
+    text-align: center;
+}
+
+.AboutHeading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    color: #ECD8CF;
+    background-color: #1D5A40;
+    font-size: xx-large;
+    width: 80%;
+    height: 80px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: rgba(0, 106, 44, 0.4) 10px 0px,
+    rgba(0, 106, 44, 0.4) -10px 0px,
+     rgba(0, 106, 44, 0.3) 20px 0px,
+     rgba(0, 106, 44, 0.3) -20px 0px,
+     rgba(0, 106, 44, 0.2) 30px 0px,
+     rgba(0, 106, 44, 0.2) -30px 0px,
+       rgba(0, 106, 44, 0.1) 40px 0px,
+       rgba(0, 106, 44, 0.1) -40px 0px,
+        rgba(0, 106, 44, 0.05) 50px 0px,
+        rgba(0, 106, 44, 0.05) -50px 0px;
+}
+
+
+.AboutPara {
+    color: #1D5A40;
+    width: 800px;
+    margin: 50px 0px 50px 0px;
+    font-size: x-large;
+    font-family: 'Lucida Sans Unicode';
+}
+
+.Aboutvid {
+    width: auto;
+    align-items: center;
+    align-content: center;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    border-radius: 50px;
+}
+
+.aboutVideo {
+    width: 100%;
+    border: 5px solid #ffffff;
+    border-radius: 10%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 10px;
+
+}
+
+.aboutVideo:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 15px 50px;
+    transition: all 0.5s ease;
+}
+
+
+.AboutStats {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 30px;
+    text-align: center;
+    font-size: x-large;
+    color: #1D5A40;
+}
+
+.fa {
+    height: 100px;
+    margin: 35px 10px 35px 10px;
+}
+
+.StatsCards {
+    max-height: 450px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 20%;
+    border: 5px solid #ffffff;
+    border-radius: 10%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 10px;
+    margin: 20px;
+}
+
+.StatsCards:hover {
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, 
+    rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+    transition: all 0.5s ease;
+
+
+}
+
+.Instructor {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    color: #ECD8CF;
+    background-color: #1D5A40;
+    font-size: xx-large;
+    width: 40%;
+    height: 80px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: rgba(0, 106, 44, 0.4) 10px 0px,
+    rgba(0, 106, 44, 0.4) -10px 0px,
+     rgba(0, 106, 44, 0.3) 20px 0px,
+     rgba(0, 106, 44, 0.3) -20px 0px,
+     rgba(0, 106, 44, 0.2) 30px 0px,
+     rgba(0, 106, 44, 0.2) -30px 0px,
+       rgba(0, 106, 44, 0.1) 40px 0px,
+       rgba(0, 106, 44, 0.1) -40px 0px,
+        rgba(0, 106, 44, 0.05) 50px 0px,
+        rgba(0, 106, 44, 0.05) -50px 0px;
+}
+
+.AboutInstructor {
+    display: flex;
+    justify-content: center;
+}
+
+.InstructorCard0 {
+    height: 800px;
+    border-radius: 60px;
+    display: grid;
+    margin: 20px 50px 40px 50px;
+    width: 400px;
+    max-width: 30%;
+    background-color: #ffffff;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+     rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+      rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset,
+       rgba(0, 0, 0, 0.06) 0px 2px 1px,
+        rgba(0, 0, 0, 0.09) 0px 4px 2px,
+         rgba(0, 0, 0, 0.09) 0px 8px 4px,
+          rgba(0, 0, 0, 0.09) 0px 16px 8px,
+           rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.Instructorimg0 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    height: 400px;
+    width: 400px;
+    border-radius: 50px;
+}
+
+.InstructorImage0 {
+    width: 400px;
+    height: 500px;
+    border-radius: 50px 50px 0px 0px;
+    
+}
+
+.InstructorCard {
+    border-radius: 50px;
+    display: grid;
+    margin: 100px 50px 100px 50px;
+    width: 400px;
+    max-width: 30%;
+    background-color: #ffffff;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+     rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.Instructorimg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    height: 500px;
+    width: 400px;
+    border-radius: 50px;
+}
+
+.InstructorImage {
+    width: 400px;
+    height: 500px;
+    border-radius: 50px 50px 0px 0px;
+}
+
+.InstructorHeading0 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    padding: 10px;
+    text-align: center;
+    color: #1D5A40;
+    font-size: xx-large;
+}
+
+.InstructorHeading {
+    padding: 20px 20px 20px 20px;
+    text-align: center;
+    color: #1D5A40;
+    font-size:xx-large;
+}
+
+.AboutInstructor {
+    color: #1D5A40;
+    text-align: center;
+    font-size: large ;
+    padding: 0px 20px 20px 20px;
+}
+
+.Instructors {
+    display: flex;
+    justify-content: center;
+    align-items: center;}
+.Instructorss {
+    display: none;
+}
+
+@media screen and (max-width:1000px) {
+
+    .AboutContainer {
+        width: 100%;
+        overflow-x: auto;
+    }
+
+    .AboutCard {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        width: 100%;
+        margin: 0px 0px 40px 0px;
+    }
+
+    .Aboutvid {
+        width: 95%;
+        align-items: center;
+        align-content: center;
+        align-self: center;
+        display: flex;
+        position: relative;
+        justify-content: center;
+        border-radius: 50px;
+    }
+
+    .AboutHeading {
+        font-size: large;
+        width: 50%;
+        height: 80px;
+    }
+
+    .AboutPara {
+        width: 50%;
+        font-size: large;
+        /* font-family: Montserrat; */
+    }
+
+    .AboutStats {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        padding: 30px;
+        text-align: center;
+        font-size: small;
+        color: #1D5A40;
+    }
+
+    .fa {
+        margin: 10px 10px 30px 10px;
+        height: 40px;}
+
+    .StatsCards {
+        padding: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        height: 180px;
+        width: 60%;
+        border: 5px solid #ffffff;
+        border-radius: 10%;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 10px;
+        margin: 20px;
+    }
+
+    .Instructors {
+        display: none;
+    }
+    .Instructorss {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .Instructor {
+        font-size: x-large;
+        width: 60%;
+        height: 80px;
+    }
+
+    .AboutInstructor {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-self: center;
+        align-content: center;
+    }
+
+    .InstructorCard {
+        border-radius: 50px;
+        display: flex;
+        flex-direction: column;
+        margin: 20px 0px 20px 0px;
+        min-width: 80%;
+        max-width: 30%;
+        background-color: #ffffff;
+    }
+
+    .InstructorCard0 {
+        height: 50%;
+        border-radius: 50px;
+        display: flex;
+        flex-direction: column;
+        margin: 100px 0px 20px 0px;
+        min-width: 80%;
+        max-width: 30%;
+        background-color: #ffffff;
+    }
+
+    .Instructorimg{
+        height: 100%;
+        width: 100%;
+        border-radius: 50px;
+    }
+
+    .InstructorImage {
+        width: 100%;
+        height: 100%;
+        border-radius: 50px 50px 0px 0px;
+    }
+
+    .Instructorimg0 {
+    height: 100%;
+    width: 100%;
+    border-radius: 50px;
+    }
+
+    .InstructorImage0 {
+        width: 100%;
+        height: 100%;
+        border-radius: 50px 50px 0px 0px;
+    }
+}

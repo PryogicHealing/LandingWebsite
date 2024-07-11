@@ -1,0 +1,96 @@
+.navbar {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    justify-content: left;
+    background: #ECD8CF;
+    overflow-y: visible;
+    z-index: 2;
+}
+
+.navdiv1 {
+    display: flex;
+    position: relative;
+    margin: 0px 0px 0px 0px;
+}
+
+.navdiv2 {
+    display: flex;
+    position: absolute;
+    height: 100%;
+    transform: translate(-40%, 0%);
+    top: 0;
+    right: 0;
+}
+
+a {
+    text-decoration: none;
+  }
+
+.navlinks {
+    margin: 10px 20px 0px 20px;
+    font-size: 25px;
+    color: #1C5C4D;
+}
+
+.navdiv3 {
+    height: 400%;
+    width: 200px;
+    background-color: #ECD8CF;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    z-index: 1;
+    display: flex;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(21%, -21%);
+}
+
+.img1 {
+    display: flex;
+    border-radius: 50%;
+    height: 90%;
+    width: 90%;
+}
+
+
+@media screen and (max-width: 850px) {
+    .Logobar {
+        width: 100%;
+    }
+    .navbar {
+        background: linear-gradient(90deg, #1C5C4D 50%, #ECD8CF 50%);
+        height: 50px;
+        width: 100%;
+        display: flex;
+        position: fixed;
+        justify-content: center;
+        z-index: 2;
+    }
+
+    .navdiv1 {
+        display: flex;
+        position: relative;
+        justify-content: center;
+    }
+
+    .navdiv2 {
+        height: 0px;
+        width: 0%;
+    }
+
+    .navlinks {
+        font-size: 0px;
+    }
+
+    .navdiv3 {
+        height: 0px;
+        width: 0%;
+    }
+
+}

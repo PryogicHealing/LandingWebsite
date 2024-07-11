@@ -1,0 +1,16 @@
+.Register {
+    display: grid;
+    position: relative;
+    width: 100%;
+    height: 50%;
+    text-align: center;
+    padding: 20px;
+    background-color: #ECD8CF;
+
+}
+
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 10px;
+    color: #1D5A40;
+}

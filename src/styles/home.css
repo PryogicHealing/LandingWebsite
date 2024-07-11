@@ -1,0 +1,224 @@
+.home {
+    display: flex;
+    position: relative;
+    height: 40%;
+    width: 100%;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    justify-content: center;
+    background-color:#ECD8CF;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.bgimage {
+    display: flex;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    border-radius: 18em/2em;}
+
+.HomeText {
+    display: grid;
+    font-family: monospace;
+    position: absolute;
+    z-index: 1;
+    font-size: xx-large;
+    transform: translate(-130%, -50%);
+    text-align: left;
+    justify-content: center;
+}
+
+.title {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #ECD8CF;
+    font-size: 60px;
+}
+
+.description {
+    font-family: monospace;
+    color: aliceblue;
+    font-size: large;
+    font-size: xx-large;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background: red;
+    background: -webkit-linear-gradient(left, orange , yellow, green, cyan, blue, violet);
+    background: -o-linear-gradient(right, orange, yellow, green, cyan, blue, violet);
+    background: -moz-linear-gradient(right, orange, yellow, green, cyan, blue, violet);
+    background: linear-gradient(to right, orange , yellow, green, cyan, blue, violet);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    height: 50px;
+    width: 100%;
+    border: 5px solid #ECD8CF;
+
+    margin: 50px 0px 0px 0px;
+    border-radius: 20px;
+    padding: 40px 30px 40px 30px;
+    font-size: x-large;
+    box-shadow:  0 0 5px 5px rgba(0,0,0,0.2);
+    box-shadow: inset 0 0 0 500px rgba(0,0,0,0.2);
+
+}
+
+.button:hover {
+    background: red;
+    background: -webkit-linear-gradient(left, orange , yellow, green, cyan, blue, violet);
+    background: -o-linear-gradient(right, orange, yellow, green, cyan, blue, violet);
+    background: -moz-linear-gradient(right, orange, yellow, green, cyan, blue, violet);
+    background: linear-gradient(to right, orange , yellow, green, cyan, blue, violet);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border: 5px solid #1C5C4D;
+    transition: all 0.5s ease;
+    box-shadow:  0 0 10px 10px rgba(0,0,0,0.2);
+}
+
+.ExtraDetes {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    z-index: 1;
+    transform: translate(100%, -50%);
+    color: #ECD8CF;
+    font-family: monospace;
+    font-size: x-large;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.ExtraDetesU {
+    border-bottom: 5px solid #ECD8CF;
+    box-shadow: inset 0 0 0 500px rgba(0,0,0,0.2);
+    border-radius: 20px 20px 0px 0px;
+    width: 100%;
+    height: auto;
+    padding: 20px;
+}
+
+.ExtraDetesL {
+    padding: 20px;
+    width: 300px;
+    height: auto;
+    box-shadow: inset 0 0 0 500px rgba(0,0,0,0.2);
+    width: 100%;
+    border-radius: 0px 0px 20px 20px;
+}
+
+.ExtraDetesI {
+    display: flex;
+    margin: 10px 0px 10px 0px;
+    padding: 5px;
+}
+
+.ExtraDetesT {
+    margin-left: 1px;
+    text-align: left;
+}
+
+.ExtraDetesP {
+    padding-bottom: 15px;
+    font-weight: bold;
+    font-size: xx-large;
+    background: red;
+    background: -webkit-linear-gradient(left, orange , yellow, green, cyan, blue, violet);
+    background: -o-linear-gradient(right, orange, yellow, green, cyan, blue, violet);
+    background: -moz-linear-gradient(right, orange, yellow, green, cyan, blue, violet);
+    background: linear-gradient(to right, orange , yellow, green, cyan, blue, violet);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation-name: ExtraDetesP;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-top: 5px;
+}
+
+@keyframes ExtraDetesP {
+    0% { transform: translate(0,  0px); }
+    50%  { transform: translate(0, 15px); }
+    100%   { transform: translate(0, -0px); }
+}
+
+@media screen and (max-width:1500px) {
+    .home {
+        display: flex;
+        position: relative;
+        height: 1000px;
+        width: 100%;
+        align-items: center;
+        align-self: center;
+        align-content: center;
+        justify-content: center;
+        background-color:#ECD8CF;
+        text-align: center;
+        overflow-x: hidden;
+    }
+    .bgimage {
+        display: flex;
+        position: relative;
+        height: 100%;
+        width: fit-content;
+        border-radius: 18em/2em;
+        margin-left: 30px;
+    }
+
+    .HomeText {
+        justify-content: center;
+        text-align: center;
+        transform: translate(0%, -80%);
+    }
+
+    .description {
+        font-size: large;
+    }
+
+    .title {
+        font-size: 60px;
+    }
+
+    a {
+        width: auto;
+        display: flex;
+        justify-content: center;
+        text-decoration: none;
+    }
+
+    .button {
+        margin: 10px;
+        font-size: 20px;
+        height: 10%;
+        width: 70%;
+    }
+
+    .ExtraDetes {
+        width: 300px;
+        margin-top: 100px;
+        font-size: large;
+        transform: translate(0%, 20%);
+    }
+
+    .ExtraDetesI {
+        display: flex;
+        margin: 10px 0px 10px 0px;
+    }
+    .ExtraDetesT {
+        margin: 0px 10px 0px 10px;
+    }
+
+
+}
