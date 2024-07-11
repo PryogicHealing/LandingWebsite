@@ -2,7 +2,7 @@ import React from 'react';
 import "../styles/About.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {faCalendarDays, faPeopleRobbery, faNotesMedical, faComment, faEye} from "@fortawesome/free-solid-svg-icons";
-import ReactPlayer from 'react-player/youtube'
+// import ReactPlayer from 'react-player/youtube'
 
 function About() {
     return (
@@ -56,14 +56,14 @@ function About() {
                           that focus on both <b><em>physical</em></b> and <b><em>mental</em></b> wellness.
                         </div>
                         </div>
-                    <div className="Aboutvid">
+                    {/* <div className="Aboutvid">
                         <ReactPlayer className="vid" url='https://www.youtube.com/watch?v=neXkbh1BZ-k'
                         playing='true'
                         type="video/mp4"
                         loop
                         height={270}
                         />
-                    </div>
+                    </div> */}
                 </div>
                 </div>
                 <div className="Instructor">The Host</div>
